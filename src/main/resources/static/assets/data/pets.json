@@ -1,0 +1,75 @@
+[
+    {
+      "name": "RIVER",
+      "type": "Cat",
+      "age": 1,
+      "img": "assets/images/pet1.png",
+      "breed": "Gray Tabby and White Shorthair",
+      "description": "I'm an affectionate guy who loves to make new friends."
+    },
+    {
+      "name": "ELPHABA",
+      "type": "Cat",
+      "age": 3,
+      "img": "assets/images/pet2.png",
+      "breed": "Long-Haired Female",
+      "description": "A friendly and energetic cat."
+    },
+    {
+      "name": "COSMO",
+      "type": "Dog",
+      "age": 1,
+      "img": "assets/images/pet3.png",
+      "breed": "Husky",
+      "description": "I enjoy walks, and absolutely LOVE to play! I would be a great running partner with a little practice! "
+    },
+    {
+      "name": "KOVU",
+      "type": "Cat",
+      "age": 7,
+      "img": "assets/images/pet4.png",
+      "breed": "Snowshoe Cat",
+      "description": "Calm and wise, Kovu enjoys quiet naps and warm laps."
+    },
+    {
+      "name": "KIARA",
+      "type": "Cat",
+      "age": 7,
+      "img": "assets/images/pet5.png",
+      "breed": "Tuxedo Cat",
+      "description": "Loyal and curious, Kiara is a gentle soul who loves window watching."
+    },
+    {
+      "name": "ANCHOVY",
+      "type": "Cat",
+      "age": 4,
+      "img": "assets/images/pet6.png",
+      "breed": "Shorthaired Tuxedo Cat",
+      "description": "Playful and smart, Anchovy will bring fun energy to your home."
+    },
+    {
+      "name": "VELVET",
+      "type": "Cat",
+      "age": 1,
+      "img": "assets/images/pet7.png",
+      "breed": "Black Shorthair Cat",
+      "description": "A sleek little panther who loves to snuggle and pounce."
+    },
+    {
+      "name": "MAJOR MELON",
+      "type": "Cat",
+      "age": 1,
+      "img": "assets/images/pet8.png",
+      "breed": "Medium-Haired Orange Tabby Cat",
+      "description": "Bursting with energy, this orange boy is ready to play!"
+    },
+    {
+      "name": "CONWAY",
+      "type": "Dog",
+      "age": 1,
+      "img": "assets/images/pet9.png",
+      "breed": "8-Month-Old Terrier Mix",
+      "description": "Smart and friendly pup who loves long walks and tug-of-war."
+    }
+  ]
+  
