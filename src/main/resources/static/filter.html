@@ -64,7 +64,7 @@
       }
 
       // Load existing saved profile filter (optional)
-      fetch(`http://10.112.4.124:8080/api/profile/${currentUser.id}`)
+      fetch(`http://10.103.2.192:8080/api/profile/${currentUser.id}`)
         .then(response => {
           if (!response.ok) throw new Error('Failed to load profile');
           return response.json();
@@ -91,7 +91,7 @@
           bio: ""
         };
 
-        fetch('http://10.112.4.124:8080/api/profile/save', {
+        fetch('http://10.103.2.192:8080/api/profile/save', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(profileData)

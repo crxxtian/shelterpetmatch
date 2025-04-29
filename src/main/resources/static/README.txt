@@ -48,7 +48,7 @@ HOW TO RUN THE PROJECT (Spring Boot)
 
 4. Once running, open your browser and go to:
 
-   http://localhost:8080
+   http://10.103.2.192:8080
 
    You’ll see the landing page. Click “Enter” to begin swiping pets.
 

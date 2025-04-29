@@ -190,7 +190,7 @@
       const email = document.getElementById('signupEmail').value;
       const password = document.getElementById('signupPassword').value;
 
-      fetch('http://localhost:8080/api/auth/signup', {
+      fetch('http://10.103.2.192:8080/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
@@ -216,7 +216,7 @@
       const email = document.getElementById('loginEmail').value;
       const password = document.getElementById('loginPassword').value;
 
-      fetch('http://localhost:8080/api/auth/login', {
+      fetch('http://10.103.2.192:8080/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
@@ -227,7 +227,7 @@
           localStorage.setItem('currentUser', JSON.stringify(data));
 
           // Check if profile exists
-          fetch(`http://localhost:8080/api/profile/${data.id}`)
+          fetch(`http://10.103.2.192:8080/api/profile/${data.id}`)
             .then(response => {
               if (response.ok) {
                 return response.json();

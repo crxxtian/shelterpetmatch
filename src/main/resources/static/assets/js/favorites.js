@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   // Fetch favorites from MySQL
   function fetchFavorites() {
-    fetch(`http://10.112.4.124:8080/api/favorites/${currentUser.id}`)
+    fetch(`http://10.103.2.192:8080/api/favorites/${currentUser.id}`)
       .then(response => response.json())
       .then(data => {
         likedPets = data;
@@ -66,7 +66,7 @@ $(document).ready(function () {
     if (selectedPetIndex === null || !likedPets[selectedPetIndex]) return;
     const petId = likedPets[selectedPetIndex].pet.id;
 
-    fetch(`http://10.112.4.124:8080/api/favorites/remove/${currentUser.id}/${petId}`, {
+    fetch(`http://10.103.2.192:8080/api/favorites/remove/${currentUser.id}/${petId}`, {
       method: 'DELETE'
     })
       .then(() => {
@@ -81,7 +81,7 @@ $(document).ready(function () {
     if (!confirm('Are you sure you want to clear all favorites?')) return;
 
     const deleteRequests = likedPets.map(favorite =>
-      fetch(`http://10.112.4.124:8080/api/favorites/remove/${currentUser.id}/${favorite.pet.id}`, {
+      fetch(`http://10.103.2.192:8080/api/favorites/remove/${currentUser.id}/${favorite.pet.id}`, {
         method: 'DELETE'
       })
     );

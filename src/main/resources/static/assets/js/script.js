@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   function loadPetsFromAPI() {
     return $.ajax({
-      url: "http://10.112.4.124:8080/api/pets",
+      url: "http://10.103.2.192:8080/api/pets",
       method: "GET",
       dataType: "json"
     });
@@ -55,7 +55,7 @@ $(document).ready(function () {
     if (!currentUser || !pet) return;
 
     $.ajax({
-      url: "http://10.112.4.124:8080/api/favorites/add",
+      url: "http://10.103.2.192:8080/api/favorites/add",
       method: "POST",
       contentType: "application/json",
       data: JSON.stringify({

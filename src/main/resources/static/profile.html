@@ -152,7 +152,7 @@
         preferredAgeRange: document.getElementById('preferredAgeRange').value
       };
 
-      fetch('http://localhost:8080/api/profile/save', {
+      fetch('http://10.103.2.192:8080/api/profile/save', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(profileData)

@@ -92,7 +92,7 @@
   // 🚀 NEW: Auto load filters if saved
   const currentUser = JSON.parse(localStorage.getItem('currentUser'));
   if (currentUser && currentUser.id) {
-    fetch(`http://localhost:8080/api/profile/${currentUser.id}`)
+    fetch(`http://10.103.2.192:8080/api/profile/${currentUser.id}`)
       .then(response => {
         if (!response.ok) throw new Error('Failed to load profile.');
         return response.json();

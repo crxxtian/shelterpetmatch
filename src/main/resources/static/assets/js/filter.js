@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   function loadPetsFromAPI() {
     return $.ajax({
-      url: "http://localhost:8080/api/pets",
+      url: "http://10.103.2.192:8080/api/pets",
       method: "GET",
       dataType: "json"
     });
